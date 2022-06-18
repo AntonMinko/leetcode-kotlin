@@ -1,4 +1,4 @@
-import medium.P0120_Triangle
+import leetcode.medium.P0120_Triangle
 
 object Application {
     @JvmStatic

@@ -1,4 +1,4 @@
-package medium
+package leetcode.medium
 
 class P0583_DeleteForTwoStrings {
     /*

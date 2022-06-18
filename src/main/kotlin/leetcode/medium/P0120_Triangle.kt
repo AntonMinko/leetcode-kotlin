@@ -1,4 +1,4 @@
-package medium
+package leetcode.medium
 
 class P0120_Triangle {
     fun minimumTotal(triangle: List<List<Int>>): Int {

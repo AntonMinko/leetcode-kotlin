@@ -1,8 +1,12 @@
-import leetcode.medium.P0120_Triangle
+
+import leetcode.hard.P0745PrefixAndSuffixSearch
 
 object Application {
     @JvmStatic
     fun main(args: Array<String>) {
-        println(P0120_Triangle().minimumTotal(listOf(listOf(3))))
+        val sut = P0745PrefixAndSuffixSearch(arrayOf("apple","banana"))
+        println(sut.f("ap","le"))
+        println(sut.f("bananad","banana"))
+        println(sut.f("appp","le"))
     }
 }
